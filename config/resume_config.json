@@ -1,0 +1,56 @@
+{
+    "personal_info": {
+        "name": "John Doe",
+        "email": "email@example.com",
+        "phone": "(555) 555-5555",
+        "address": "",
+        "linkedin": "linkedin.com/in/johndoe",
+        "github": ""
+    },
+    "summary": "Dedicated healthcare professional with 1 years of experience, specializing in Senior Position at Example Company. Proven expertise in  with strong capabilities in . Demonstrated track record of providing exceptional care and maintaining high standards of service delivery.",
+    "experience": [
+        {
+            "company": "Example Company",
+            "position": "Senior Position",
+            "location": "City, State",
+            "start_date": "YYYY-MM",
+            "end_date": "YYYY-MM",
+            "highlights": [
+                "Led key initiative resulting in X% improvement",
+                "Managed team of X people across Y projects",
+                "Implemented new system that reduced costs by X%"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Name",
+            "degree": "Degree Name",
+            "field": "Field of Study",
+            "location": "City, State",
+            "graduation_date": "YYYY-MM",
+            "gpa": "X.XX",
+            "honors": [
+                "Honor 1",
+                "Honor 2"
+            ]
+        }
+    ],
+    "skills": {
+        "technical": [],
+        "soft": []
+    },
+    "template": {
+        "colors": {
+            "primary": "#2c3e50",
+            "secondary": "#3498db",
+            "text": "#333333"
+        },
+        "font": {
+            "main": "Roboto",
+            "heading": "Roboto"
+        },
+        "name": "modern"
+    },
+    "volunteer_work": []
+}

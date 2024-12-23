@@ -34,8 +34,6 @@ wheels/
 # Project specific
 output/
 preview.html
-config/*.json
-!config/resume_config.example.json
 
 # Logs
 *.log
