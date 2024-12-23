@@ -32,7 +32,6 @@ wheels/
 *.swo
 
 # Project specific
-output/
 preview.html
 
 # Logs
