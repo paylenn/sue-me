@@ -18,6 +18,9 @@ A sophisticated Python-based tool designed to craft professional and creative re
 - 🎯 **Customizable styling options**
 - 🔒 **Secure configuration system**
 
+## 🎥 Demo
+![Demo of Sue-Me in action](@demo_final.gif)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
