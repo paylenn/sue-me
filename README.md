@@ -1,13 +1,13 @@
 # Sue-Me: AI-Powered Resume Generator 🚀
 
-A sophisticated Python-based tool designed to craft professional and creative resumes. Features AI-powered content enhancement and an interactive configuration wizard.
+A sophisticated Python-based tool designed to craft professional and creative resumes. Features intelligent content enhancement and an interactive configuration wizard.
 
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
 ## ✨ Features
 
-- 🤖 **AI-powered content improvement**:
+- 🤖 **Intelligent content improvement**:
   - Enhanced job descriptions
   - Professional summary generation
   - Smart skill suggestions
@@ -23,7 +23,6 @@ A sophisticated Python-based tool designed to craft professional and creative re
 ### Prerequisites
 - Python 3.8 or higher
 - Virtual environment (recommended)
-- API key for AI features (see Configuration)
 
 ### Installation
 
@@ -44,23 +43,10 @@ A sophisticated Python-based tool designed to craft professional and creative re
    pip install -r requirements.txt
    ```
 
-4. Copy `.env.example` to `.env` and configure your settings:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your settings
-   ```
-
 ## 🔒 Security
-
-### API Keys and Sensitive Data
-- Never commit your `.env` file
-- Keep your API keys private
-- Use environment variables for sensitive data
-- The `.gitignore` file is configured to exclude sensitive files
 
 ### Data Privacy
 - Resume data is stored locally in your config directory
-- No data is sent to external servers except for AI processing
 - Templates and outputs are saved in your local directories
 - Sensitive information is not logged
 
@@ -83,36 +69,24 @@ This launches the interactive configuration wizard that guides you through:
 python resume_generator.py --no-interactive
 ```
 
-### AI Enhancement Options
+### Enhancement Options
 ```bash
-python resume_generator.py --no-ai  # Disable AI features
-```
-
-## ⚙️ Configuration
-
-### Environment Variables
-Create a `.env` file with the following settings:
-```bash
-# Copy from .env.example and fill in your values
-AI_API_KEY=your_api_key_here
-AI_MODEL=your_model_here
-DEBUG=False
+python resume_generator.py --no-enhance  # Disable enhancement features
 ```
 
 ## 📁 Project Structure
 ```
 sue-me/
-├── .env.example          # Environment variables template
 ├── .gitignore           # Git ignore rules
 ├── README.md            # Documentation
 ├── requirements.txt     # Python dependencies
 ├── resume_generator.py  # Main application
-├── ai_helper.py         # AI enhancement utilities
+├── ai_helper.py         # Enhancement utilities
 ├── interactive_config.py # Configuration wizard
 ├── config/             # Configuration files
 │   └── resume_config.json
 ├── templates/          # Resume templates
-└── output/            # Generated resumes (empty, created on demand)
+└── output/            # Generated resumes
 ```
 
 ## 🔐 License and Usage Restrictions

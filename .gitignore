@@ -20,11 +20,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Environment variables
-.env
-.env.local
-.env.*.local
-
 # IDE
 .idea/
 .vscode/
