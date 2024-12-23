@@ -91,7 +91,7 @@ sue-me/
 
 ## 🔐 License and Usage Restrictions
 
-This project is proprietary and confidential. Unauthorized copying, distribution, or use of this software is strictly prohibited. All rights reserved.
+This project is proprietary and confidential. Unauthorized copying, distribution, or use of this software is strictly prohibited. All rights reserved. lol jk
 
 ### Usage Restrictions
 - Private use only
